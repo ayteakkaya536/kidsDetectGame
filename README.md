@@ -1,18 +1,18 @@
 ## KIDS KNOWN GAME ##
 using object detection librries, and developing a simple kids game. will require camera usage
 
---> Use YOLO models/libraries for object detection
-    - see the code "windowsfacedetect.py"
---> implement "known person"
+a) Use YOLO models/libraries for object detection
+     - see the code "windowsfacedetect.py"
+b) implement "known person"
     - check if YOLO offers face detection, and re training teh model with known faces
     OR
     - see my code "windowTrainSaveKnownFces.py" for training
     - see my code "windowsVideoDetectKnownFace.py" for testing
         !! face_detection library is old and slow, not suggested, if needed tet the speed of FPS
---> implement front end "known person" to add pictures to train known person
---> implement "text to speech" 
-   - see example my code "JN_text2SpeechLibEspeak.py"
-      !! this is old code, speech is not suitable for cheerful kids game
+c) implement front end "known person" to add pictures to train known person
+d) implement "text to speech" 
+    - see example my code "JN_text2SpeechLibEspeak.py"
+        !! this is old code, speech is not suitable for cheerful kids game
 ## GAME ##
 1) Green Go, Red Stop
    track movement, pixel calculation
